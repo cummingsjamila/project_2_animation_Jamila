@@ -2,3 +2,7 @@
 body{ background-image:
 url("http://www.wallpaperhi.com/thumbnails/detail/20120224/outer%20space%20galaxies%201920x1200%20wallpaper_www.wallpaperhi.com_41.jpg");
 }
+H2{
+  background-color: blue;
+  text-color: white;
+}
