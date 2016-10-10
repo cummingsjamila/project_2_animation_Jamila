@@ -1,15 +1,15 @@
-<style>
-@import 'https://fonts.googleapis.com/css?family=Abhaya+Libre:600';
-</style>
 
-body{ background-image:
-url("http://www.wallpaperhi.com/thumbnails/detail/20120224/outer%20space%20galaxies%201920x1200%20wallpaper_www.wallpaperhi.com_41.jpg");
+@import 'https://fonts.googleapis.com/css?family=Abhaya+Libre:600';
+
+
+body
+{ background-image:
+  url("http://www.wallpaperhi.com/thumbnails/detail/20120224/outer%20space%20galaxies%201920x1200%20wallpaper_www.wallpaperhi.com_41.jpg");
 }
 h2{
-  background-color: blue;
-  text: white;
-  font-family: 'Playfair Display', serif;
-}
-p{background-color:darkslateblue;
-  text:white;
+  background-color:skyblue;
+  color: : white;
+  font-family: serif;}
+p{background-color:slateblue;
+  color:white;
   font-family: 'Abhaya Libre', serif;}

@@ -13,7 +13,7 @@ Thomas didn't think he could take anymore of the gross
 alien food. Thomas is vegan and the choices they had were
 very limited, some making him turn more green than you can imagine.
 While Thomas was enjoying his day off he noticed another person.
-Was it..,"Bobby?". Thomas wass beyond confused, where did bobby
+Was it..,"Bobby?". Thomas was beyond confused, where did bobby
 come from, why is he here, and why is their A PLANET
 BY HIM???? </p>
 <svg  width="750" height="700">
@@ -21,8 +21,14 @@ BY HIM???? </p>
 <circle cx="150" cy="260" r="68"  fill="darkgreen"/>
 <circle cx="126" cy="240" r="25"  fill="white"/>
 <circle cx="180" cy="240" r="25"  fill="white"/>
-<circle cx="180" cy="240" r="15"  fill="black"/>
-<circle cx="125" cy="240" r="15"  fill="black"/>
+<circle cx="180" cy="240" r="15"  fill="black">
+<animate attributeName="fill" from="black" to="purple" dur="3s"
+ begin="mouseover" id="test.8" fill="freeze">
+ <animate attributeName="fill" from="purple" to="black" dur="3s"
+ begin="test.8" fill="freeze">
+ </circle>
+
+<circle cx="125" cy="240" r="15"  fill="black">
 <animate attributeName="fill" from="black" to="purple" dur="5s"
  begin="click" id="test.1"    fill="freeze"/>
 <animate attributeName="fill" from="purple" to="black" dur="5s"
@@ -34,7 +40,7 @@ BY HIM???? </p>
 <!-- <!!!!alien body start/> -->
 <rect   x="120" y="326" height="120" width="50" fill="darkblue">
 <animate attributeName="fill" from="darkblue" to="plum" dur="5s"
- begin="click" id="test.2"    fill="freeze"/>
+ begin="click" id="test.2"    fill="freeze">
 <animate attributeName="fill" from="plum" to="darkblue" dur="5s"
  begin="test2.end" fill="freeze"/>
  </rect>
@@ -49,34 +55,34 @@ BY HIM???? </p>
 <circle cx="520" cy="150"  r="8"/>
 <circle cx="540" cy="180"  r="10" fill="coral"/>
 
-<circle cx="560" cy="150"  r="8" />
+<circle cx="560" cy="150"  r="8" >
 <animate attributeName="fill" from="black" to="red"
- dur="3s" begin="mouseover" id="test.1" fill="freeze"/>
-<animate attributeName="fill" from="red" to="blue" dur="3s"
- begin="test1.end" fill="freeze"/>
- <circle>
+ dur="3s" begin="mouseover" id="test.5" fill="freeze"/>
+<animate attributeName="fill" from="red" to="black" dur="3s"
+ begin="test5.end" fill="freeze"/>
+ </circle>
 
 <!-- <!!!!!!planet/> -->
-<circle  cx="600" cy="410" r="130" fill="yellow" opacity=".65"/>
-<animate attributeName="fill" from="yellow" to="mediumseagreen" dur="6s"
- begin="mouseover" id="test.3" fill="freeze"/>
- <animate attributeName="fill" from="mediumseagreen" to="yellow" dur="5s"
+<circle  cx="600" cy="410" r="130" fill="yellow" opacity=".65">
+<animate attributeName="fill" from="yellow" opacity=".65" to="mediumseagreen" dur="5s"
+ begin="click" id="test.3" fill="freeze"/>
+<animate attributeName="fill" from="mediumseagreen" to="yellow" dur="5s"
   begin="test3.end" fill="freeze"/>
 </circle>
-<ellipse cx="600" cy="420" rx="140" ry="25" fill="orange"/>
+<ellipse cx="600" cy="420" rx="150" ry="25" fill="orange"/>
 <line    x1="520" x2="690" y1="340" y2="345" stroke="grey" stroke-width="7" opacity=".6" />
 <line    x1="510" x2="705" y1="380" y2="381" stroke="grey" stroke-width="7" opacity=".6"/>
 <!-- <!!!spaceship/> -->
 
 <rect x="140" y="30" height="150" width="260" fill="purple" opacity=".6"/>
-<animate attributeName="fill" from="purple" to="lime" dur="3s" repeatCount="indefinte"
- begin="click" id="test.4" fill="freeze"/>
+ <animate attributeName="fill" from="purple" to="lime" dur="3s" repeatCount="indefinte"
+ begin="click" id="test.4" fill="freeze">
  <animate attributeName="fill" from="lime" to="purple" dur="3s"
   begin="test4.end" fill="freeze"/>
  <rect x="250" y="250" width="100" height="100" fill="darkslateblue">
   <animate attributeName="y" from="250" to="400" dur="12s" repeatCount="indefinite"/>
   <animate attributeName="x" from="250" to="900" dur="3s" repeatCount="indefinite"/>
- </rect>
+  </rect>
 
 
 </svg>
