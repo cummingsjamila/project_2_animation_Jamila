@@ -5,11 +5,11 @@
 body{ background-image:
 url("http://www.wallpaperhi.com/thumbnails/detail/20120224/outer%20space%20galaxies%201920x1200%20wallpaper_www.wallpaperhi.com_41.jpg");
 }
-H2{
+h2{
   background-color: blue;
   text: white;
+  font-family: 'Playfair Display', serif;
 }
-P{background-color:darkslateblue;
+p{background-color:darkslateblue;
   text:white;
-  font-family: 'Abhaya Libre', serif;  
-}
+  font-family: 'Abhaya Libre', serif;}
